@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "always-show-debug-info",
+  "version": "1.0.0",
+  "name": "always show debug info",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["yoink.nanobatch.always_show_debug_info.AlwaysShowDebugInfo"]
+  },
+  "mixins": ["always-show-debug-info.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "26.1.x"
+  },
+  "description": "Forces the client to think that the gamerule reducedDebugInfo is false, even on servers that have this option enabled.",
+	"authors": [
+		"nanobatch (discord)"
+	]
+} 	
+	
+	

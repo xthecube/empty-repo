@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "yoink.nanobatch.always_show_debug_info.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": ["GameRulesMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
